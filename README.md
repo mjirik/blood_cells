@@ -16,15 +16,10 @@ The area, perimeter are the simpliest properties. The non-compactness is given b
 
 The major axis length is the length of the major axis of the ellipse that has the same normalized second central 
 moments as the region and the minor axis length is the length of the minor axis of the ellipse that has the 
-same normalized second central moments as the region.
-
-Blood smear image
-<img src="graphics/TP1_a.jpg.png" alt="drawing" width="200"/>
-Otsu thresolding
-<img src="graphics/TP1_a.jpg_thr.jpg.png" alt="drawing" width="200"/>
-<img src="graphics/TP1_a.jpg_small_removed.jpg.png" alt="drawing" width="200"/>
-Labeled image
-<img src="graphics/TP1_a.jpg_small_labeled.jpg.png" alt="drawing" width="200"/>
+same normalized second central moments as the region. Solidity is the ratio of pixels in the region to pixels of the convex hull image.
+The eccentricity is the ratio of the focal distance (distance between focal points) over the major axis length. 
+See [Burger2009](#Burger2009) for more information.
+Then the objects smaller than 5 μm² and objects larger than 40 μm².
 
 <figure class="image">
   <img src="graphics/TP1_a.jpg.png" width="300">
@@ -50,6 +45,10 @@ Labeled image
     Labeled image
   </figcaption>
 </figure>
+
+
+We tried to correlate the shape properties with two experiments `TP1` and `TP5`.
+<img src="src/graphics/cl.png" width="500">
 
 
 # References
