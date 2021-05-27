@@ -48,7 +48,7 @@ Then the objects smaller than 5 μm² and objects larger than 40 μm².
 
 
 We were not able to proof the ability of the shape properties to distinguish two experiments `TP1` and `TP5`. 
-For example for the minor axis lenth the 
+For example, the statistics for the minor axis length can be found in fallowing table.
 
 | Test  | statistic  | pvalue  |   
 |---|---|---|
