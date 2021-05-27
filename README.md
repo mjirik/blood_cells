@@ -32,7 +32,14 @@ Labeled image
 </figure>
 
 <figure class="image">
-  <img src="graphics/TP1_a_small_labeled.jpg.png" width="300">
+  <img src="graphics/TP1_a.jpg_thr.png" width="300">
+  <figcaption>Otsu thresholding</figcaption>
+</figure>
+
+
+
+<figure class="image">
+  <img src="graphics/TP1_a.jpg_small_labeled.png" width="300">
   <figcaption>
     Small objects and holed removed
   </figcaption>
