@@ -18,8 +18,9 @@ The major axis length is the length of the major axis of the ellipse that has th
 moments as the region and the minor axis length is the length of the minor axis of the ellipse that has the 
 same normalized second central moments as the region.
 
-
-
+<img src="graphics/TP1_a.jpg.png" alt="drawing" width="200"/>
+<img src="graphics/TP1_a.jpg.png" alt="drawing" width="200"/>
+<img src="../graphics/TP1_a.jpg.png" width="200"> </img>
 
 # References
 
