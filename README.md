@@ -22,15 +22,24 @@ Blood smear image
 <img src="graphics/TP1_a.jpg.png" alt="drawing" width="200"/>
 Otsu thresolding
 <img src="graphics/TP1_a_thr.jpg.png" alt="drawing" width="200"/>
-Small objects and holed removed
 <img src="graphics/TP1_a_small_removed.jpg.png" alt="drawing" width="200"/>
 Labeled image
 <img src="graphics/TP1_a_small_labeled.jpg.png" alt="drawing" width="200"/>
 
 <figure class="image">
-  <img src="graphics/TP1_a.jpg.png" alt="">
-  <figcaption>caption</figcaption>
+  <img src="graphics/TP1_a.jpg.png" width="300">
+  <figcaption>Blood smear image</figcaption>
 </figure>
+
+<figure class="image">
+  <img src="graphics/TP1_a_small_labeled.jpg.png" width="300">
+  <figcaption>
+    Small objects and holed removed
+  </figcaption>
+</figure>
+
+
+
 # References
 
 
