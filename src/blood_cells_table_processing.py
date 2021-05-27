@@ -43,7 +43,7 @@ df = pd.read_csv("blood_cells.csv", index_col=0).reset_index()
 #%%
 
 
-dfs = df[df.area < (0.9e4 * pxsz_um**2)]
+# dfs = df[df.area < (0.9e4 * pxsz_um**2)]
 
 #     y = 1
 #
@@ -59,6 +59,7 @@ dfs = df[df.area < (0.9e4 * pxsz_um**2)]
 
 #%%
 
+dfs = df
 dfs = dfs[(dfs['cl'] == 1) | (dfs['cl']==5)]
 dfs.cl.unique()
 
@@ -192,7 +193,9 @@ print(scipy.stats.kstest(list(a),list(b), N=bins))
 print(len(a), len(b))
 ya, bn = np.histogram(a, bins=bins)
 yb, bn = np.histogram(b, bins=bn)
-scipy.stats.chisquare(ya,yb)
+print(scipy.stats.chisquare(ya,yb))
+
+print(scipy.stats.mannwhitneyu(a,b))
 
 #%% md
 

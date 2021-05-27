@@ -47,8 +47,19 @@ Then the objects smaller than 5 μm² and objects larger than 40 μm².
 </figure>
 
 
-We tried to correlate the shape properties with two experiments `TP1` and `TP5`.
-<img src="src/graphics/cl.png" width="500">
+We were not able to proof the ability of the shape properties to distinguish two experiments `TP1` and `TP5`. 
+For example for the minor axis lenth the 
+
+| Test  | statistic  | pvalue  |   
+|---|---|---|
+| Kolmogorov–Smirnov | 0.0726068 | 0.0726068 |
+| Mann–Whitney–Wilcoxon |  187445.0 | M0.13797798 |
+
+<img src="src/graphics/cl.png" width="700">
+
+
+All scripts used for the measurement are available on [GitHub](https://github.com/mjirik/blood_cells). The measured properties 
+can be found in [`csv` file]()
 
 
 # References
