@@ -10,16 +10,13 @@ In our work we aim on more delicate problem where it is not easy to distinguish 
 The individual objects in 
 Because the color in blood smear image does not bring useful information for the shape description, the image is converted into grayscale. 
 The individual objects are segmented by optimal Otsu thesholding [Otsu1979](#Otsu1979). Then the shape properties of each object are measured. 
-The area, perimeter are the simpliest properties. The non-compactness is given by the
-\[
-perimeter
-\]
+The area, perimeter are the simpliest properties. The non-compactness is given by fallowing equation.
 
-<img src="https://latex.codecogs.com/gif.latex?P(s | O_t )=\frac{1}{2}\text { Probability of a sensor reading value when sleep onset is observed at a time bin } t " />
+![noncompactness](graphics/noncompactness.png)
 
-<img src="https://render.githubusercontent.com/render/math?math={{perimeter^{2}}{area} \pi} = -1">
-
-, major axis length, minor axis length, solidity and excentricity are 
+The major axis length is the length of the major axis of the ellipse that has the same normalized second central 
+moments as the region and the minor axis length is the length of the minor axis of the ellipse that has the 
+same normalized second central moments as the region.
 
 
 
