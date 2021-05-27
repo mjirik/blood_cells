@@ -21,10 +21,10 @@ same normalized second central moments as the region.
 Blood smear image
 <img src="graphics/TP1_a.jpg.png" alt="drawing" width="200"/>
 Otsu thresolding
-<img src="graphics/TP1_a_thr.jpg.png" alt="drawing" width="200"/>
-<img src="graphics/TP1_a_small_removed.jpg.png" alt="drawing" width="200"/>
+<img src="graphics/TP1_a.jpg_thr.jpg.png" alt="drawing" width="200"/>
+<img src="graphics/TP1_a.jpg_small_removed.jpg.png" alt="drawing" width="200"/>
 Labeled image
-<img src="graphics/TP1_a_small_labeled.jpg.png" alt="drawing" width="200"/>
+<img src="graphics/TP1_a.jpg_small_labeled.jpg.png" alt="drawing" width="200"/>
 
 <figure class="image">
   <img src="graphics/TP1_a.jpg.png" width="300">
