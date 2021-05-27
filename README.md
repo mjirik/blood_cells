@@ -55,7 +55,7 @@ For example for the minor axis lenth the
 | Kolmogorov–Smirnov | 0.0726068 | 0.0726068 |
 | Mann–Whitney–Wilcoxon |  187445.0 | M0.13797798 |
 
-<img src="src/graphics/cl.png" width="700">
+<img src="src/graphics/cl.png" width="900">
 
 
 All scripts used for the measurement are available on [GitHub](https://github.com/mjirik/blood_cells). The measured properties 
