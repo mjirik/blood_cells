@@ -59,7 +59,7 @@ For example, the statistics for the minor axis length can be found in fallowing 
 
 
 All scripts used for the measurement are available on [GitHub](https://github.com/mjirik/blood_cells). The measured properties 
-can be found in [`csv` file]()
+can be found in [`csv` file](src/blood_cells.csv).
 
 
 # References
