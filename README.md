@@ -27,6 +27,10 @@ Small objects and holed removed
 Labeled image
 <img src="graphics/TP1_a_small_labeled.jpg.png" alt="drawing" width="200"/>
 
+<figure class="image">
+  <img src="graphics/TP1_a.jpg.png" alt="">
+  <figcaption>caption</figcaption>
+</figure>
 # References
 
 
