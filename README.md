@@ -37,14 +37,19 @@ Labeled image
 </figure>
 
 
-
 <figure class="image">
-  <img src="graphics/TP1_a.jpg_small_labeled.png" width="300">
+  <img src="graphics/TP1_a.jpg_small_removed.png" width="300">
   <figcaption>
     Small objects and holed removed
   </figcaption>
 </figure>
 
+<figure class="image">
+  <img src="graphics/TP1_a.jpg_labeled.png" width="300">
+  <figcaption>
+    Labeled image
+  </figcaption>
+</figure>
 
 
 # References
